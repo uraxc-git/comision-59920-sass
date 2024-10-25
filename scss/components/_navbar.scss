@@ -1,0 +1,40 @@
+/*navbar-section*/
+nav {
+    .navBar {
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        max-height: 96px;
+        align-items: center;
+
+        li {
+            a {
+                &:hover {
+                    color: $primary-color;
+                }
+                text-decoration: none;
+                color: $neutral-color-1;
+                font-size: 1rem;
+                font-family: Quicksand;
+            }
+        }
+
+        .botonPrincipal {
+                background-color: $primary-color;
+                border-radius: 30px;
+                padding: 16px 24px;
+                color: $neutral-color-white;
+                font-size: 1rem;
+                border: 1px;
+                text-decoration: none;
+                font-family: Quicksand;
+        }
+
+        .botonPrincipal:hover {
+            background-color: $primary-color-tint-2; 
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,94 @@
+/*hero-section*/
+.hero {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(8, 100px);
+        gap: 32px;
+    
+            .container-content {
+                grid-column: 4 / span 6;
+                grid-row: 3 / span 4;
+                font-size: 64px;
+                text-align: center;
+    
+                h1 {
+                    margin-bottom: 1.5rem;
+                    font-family: Quicksand;
+                }
+            }
+    
+            .input-button {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                grid-column: 4 / span 6;
+                grid-row: 6 / span 2;
+                gap: 3rem;
+    
+                input {
+                    grid-column: 3 / span 6;
+                    grid-row: 4 / span 4;
+                    width: 384px;
+                    height: 44px;
+                    border-radius: 8px;
+                    padding: 5px 10px;
+                }
+    
+                input::placeholder {
+                    text-align: center;
+                    font-family: Quicksand;
+                    color: $neutral-color-1;
+                }
+    
+                button {
+                    grid-column: 3 / span 6;
+                    grid-row: 5 / span 4;
+                    width: 180px;
+                    height: 56px;
+                    background-color: $primary-color;
+                    color: $neutral-color-white;
+                    border: none;
+                    border-radius: 30px;
+                    cursor: pointer;
+                    font-family: Quicksand;
+                    font-size: 16px;
+                }
+    
+                button:hover {
+                    background-color: $primary-color-tint-2; 
+                    color: white;
+                }
+            }
+    
+            .image.top-left {
+                width: 100%;
+                height: 100%;
+                grid-column: 1 / span 2;
+                grid-row: 1 / span 4;
+            }
+    
+            .image.top-right {
+                width: 60%;
+                height: 60%;
+                grid-column: 9 / span 4;
+                grid-row: 2 / span 4;
+            }
+    
+            .image.bottom-left {
+                width: 60%;
+                height: 60%;
+                grid-column: 3 / span 4;
+                grid-row: 6 / span 4;
+            }
+    
+            .image.bottom-right {
+                width: 100%;
+                height: 100%;
+                grid-column: 7 / span 6;
+                grid-row: 6 / span 4;
+            }
+    
+            .image {
+                object-fit: cover;
+            }          
+}

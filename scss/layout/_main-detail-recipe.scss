@@ -1,0 +1,182 @@
+main {
+/*recipe-detail-section*/
+    .receta {
+        display: grid;
+        grid-template-columns: repeat(12, 78px); 
+        grid-template-rows: repeat(8,auto);
+        gap: 24px; 
+        padding: 20px; 
+        max-width: 1200px; 
+        margin: 0 auto; 
+
+        .titulo {
+            grid-column: 1 / span 9;
+
+            h1 {
+                font-family: Quicksand;
+                font-size: map-get($type-scale, heading-md-bold);
+                text-align: left;
+                padding-top: 6rem;
+            }
+        }
+
+        .guardarEn {
+            grid-column: 11 / span 2;
+            display: flex;
+            align-items:flex-end;
+            justify-content: flex-end;
+
+
+            label {
+                cursor: pointer; 
+                text-decoration: none; 
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-sm-regular);
+                color: $neutral-color-4;
+            }
+
+            .icono {
+                width: 24px; 
+                height: 24px;
+                margin-right: 5px; 
+                vertical-align: middle; 
+            }
+        }
+
+        .calificacion {
+            grid-column: 1 / span 2;
+
+            p {
+                font-family: Quicksand;
+                font-size: map-get($type-scale, label-sm-md);
+            }
+        }
+
+        .imagen-principal {
+            grid-column: 1 / span 12;
+            height: 390px;
+            border-radius: 20px;
+            background-size:unset;
+            background-position:absolute;
+            object-fit: cover;
+        }
+
+        .ingredientes {
+            grid-column: 1 / span 6;
+
+            h2 {
+                font-family: Quicksand;
+                font-size: map-get($type-scale, heading-sm-bold);
+                padding-top: 3rem;
+                padding-bottom: 2rem;
+                }
+
+            .lista-ingredientes {
+                grid-column: 1 / span 6;
+                list-style: none;
+                padding: 0;
+
+                li {
+                    border-bottom: 1px solid #ddd;
+                    font-family: Quicksand;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    }
+
+                span {
+                    color: $secondary-color;
+                }
+            }
+        }
+
+        .instrucionesReceta {
+            grid-column: 1 / span 6;
+
+            h2 {
+                font-family: Quicksand;
+                font-size: map-get($type-scale, heading-sm-bold);
+                padding-top: 3rem;
+                padding-bottom: 2rem;
+            }
+
+            h3 {
+                font-family: Quicksand;
+                font-weight: 400;
+                font-size: map-get($type-scale, heading-xs-regular);
+                padding-bottom: 2rem;
+            }
+
+            p {
+                font-family: Quicksand;
+            }
+
+            .imagen-paso {
+                border-radius: 10px;
+                padding-top: 2rem;
+            }
+        }
+
+        .divider-paso {
+            grid-column: 1 / span 6;
+            background-color: #ccc;
+            height: 1px;
+        }
+/*related-recipes-section*/
+        .recetasRelacionadaS {
+            grid-column: 1 / span 6;
+
+            h2 {
+                font-family: Quicksand;
+                font-size: map-get($type-scale, heading-sm-bold);
+            }
+        }
+
+        .card1 {
+            grid-column: 1/span 3; 
+            padding-right: 24px;
+
+            @extend .card;
+
+            p {
+                font-family: Quicksand;
+            }
+        }
+
+        .card2 {
+            grid-column: 4 /span 3; 
+            padding-right: 24px;
+
+            @extend .card;
+
+            p {
+                font-family: Quicksand;
+            }
+        }
+
+        .card3 {
+            grid-column: 7 /span 3; 
+            padding-right: 24px;
+
+            @extend .card;
+
+            p {
+                font-family: Quicksand;
+            }
+        }
+
+        .card4 {
+            grid-column: 10 /span 3; 
+            padding-right: 24px;
+
+            @extend .card;
+
+            p {
+                font-family: Quicksand;
+            }
+        }
+    }
+}

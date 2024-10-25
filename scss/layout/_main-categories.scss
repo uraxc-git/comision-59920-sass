@@ -1,0 +1,316 @@
+main {
+/*categories-section*/
+    .recetasIngredientes {
+        font-family: Quicksand;
+        color: #212121;
+        font-size: 2.5625rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .containerCardingredientes-1 {
+        background-color:none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        gap: 1.5rem;
+        padding-top: 2rem;
+
+        .cardIngredientes1 {
+            width: 180px;
+            height: 216px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            transition: all 400ms ease;
+
+            p {
+                padding-top: 16px;
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-sm-regular);
+                text-align: center;
+            }
+        }
+
+        .cardIngredientes1:hover {
+            box-shadow: 5px 5px 20px rgba (0,0,0,2);
+            transform:translateY(-3%);
+        }
+
+        .cardIngredientes2 {
+            width: 180px;
+            height: 216px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            transition: all 400ms ease;
+
+            p {
+                padding-top: 16px;
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-sm-regular);
+                text-align: center;
+            }
+        }
+
+        .cardIngredientes2:hover {
+            box-shadow: 5px 5px 20px rgba (0,0,0,2);
+            transform:translateY(-3%);
+        }
+
+        .cardIngredientes3 {
+            width: 180px;
+            height: 216px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            transition: all 400ms ease;
+
+            p {
+                padding-top: 16px;
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-sm-regular);
+                text-align: center;
+            }
+        }
+
+        .cardIngredientes3:hover {
+            box-shadow: 5px 5px 20px rgba (0,0,0,2);
+            transform:translateY(-3%);
+        }
+
+        .cardIngredientes4 {
+            width: 180px;
+            height: 216px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            transition: all 400ms ease;
+
+            p {
+                padding-top: 16px;
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-sm-regular);
+                text-align: center;
+            }
+        }
+
+        .cardIngredientes4:hover {
+            box-shadow: 5px 5px 20px rgba (0,0,0,2);
+            transform:translateY(-3%);
+        }
+
+        .cardIngredientes5 {
+            width: 180px;
+            height: 216px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            transition: all 400ms ease;
+
+            p {
+                padding-top: 16px;
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-sm-regular);
+                text-align: center;
+            }
+        }
+
+        .cardIngredientes5:hover {
+            box-shadow: 5px 5px 20px rgba (0,0,0,2);
+            transform:translateY(-3%);
+        }
+
+        .cardIngredientes6 {
+            width: 180px;
+            height: 216px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            transition: all 400ms ease;
+
+            p {
+                padding-top: 16px;
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-sm-regular);
+                text-align: center;
+            }
+        }
+
+        .cardIngredientes6:hover {
+            box-shadow: 5px 5px 20px rgba (0,0,0,2);
+            transform:translateY(-3%);
+        }
+    }
+
+    .containerCardingredientes2 {
+        background-color:none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        gap: 1.5rem;
+        padding-top: 2rem;
+
+        .cardIngredientes7 {
+            width: 180px;
+            height: 216px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            transition: all 400ms ease;
+
+            p {
+                padding-top: 16px;
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-sm-regular);
+                text-align: center;
+            }
+        }
+
+        .cardIngredientes7:hover {
+            box-shadow: 5px 5px 20px rgba (0,0,0,2);
+            transform:translateY(-3%);
+        }
+
+        .cardIngredientes8 {
+            width: 180px;
+            height: 216px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            transition: all 400ms ease;
+
+            p {
+                padding-top: 16px;
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-sm-regular);
+                text-align: center;
+            }
+        }
+
+        .cardIngredientes8:hover {
+            box-shadow: 5px 5px 20px rgba (0,0,0,2);
+            transform:translateY(-3%);
+        }
+
+        .cardIngredientes9 {
+            width: 180px;
+            height: 216px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            transition: all 400ms ease;
+
+            p {
+                padding-top: 16px;
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-sm-regular);
+                text-align: center;
+            }
+        }
+
+        .cardIngredientes9:hover {
+            box-shadow: 5px 5px 20px rgba (0,0,0,2);
+            transform:translateY(-3%);
+        }
+
+        .cardIngredientes10 {
+            width: 180px;
+            height: 216px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            transition: all 400ms ease;
+
+            p {
+                padding-top: 16px;
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-sm-regular);
+                text-align: center;
+            }
+        }
+
+        .cardIngredientes10:hover {
+            box-shadow: 5px 5px 20px rgba (0,0,0,2);
+            transform:translateY(-3%);
+        }
+
+        .cardIngredientes11 {
+            width: 180px;
+            height: 216px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            transition: all 400ms ease;
+
+            p {
+                padding-top: 16px;
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-sm-regular);
+                text-align: center;
+            }
+        }
+
+        .cardIngredientes11:hover {
+            box-shadow: 5px 5px 20px rgba (0,0,0,2);
+            transform:translateY(-3%);
+        }
+
+        .cardIngredientes12 {
+            width: 180px;
+            height: 216px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            transition: all 400ms ease;
+
+            p {
+                padding-top: 16px;
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-sm-regular);
+                text-align: center;
+            }
+        }
+
+        .cardIngredientes12:hover {
+            box-shadow: 5px 5px 20px rgba (0,0,0,2);
+            transform:translateY(-3%);
+        }
+    }
+
+    .containerCardingredientes1 {
+        background-color:none;
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        margin-left: 80px;
+        gap: 1.5rem;
+        padding-top: 2rem;
+        padding-left: 55px;
+
+        .cardIngredientes13 {
+            width: 180px;
+            height: 216px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            transition: all 400ms ease;
+
+            p {
+                padding-top: 16px;
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-sm-regular);
+                text-align: center;
+            }
+        }
+
+        .cardIngredientes13:hover {
+            box-shadow: 5px 5px 20px rgba (0,0,0,2);
+            transform:translateY(-3%);
+        }
+    }
+}

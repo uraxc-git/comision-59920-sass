@@ -1,0 +1,1628 @@
+/* 1.- Utilities*/
+/*maps-type-scale*/
+/*primary-color*/
+/*tints*/
+/*secondary-color*/
+/*neutral-colors*/
+/*mixin-titles-p*/
+/*extend-cards*/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+.card .container-card, main .recetasDesayuno .container-cards .card1 .container-card, main .recetasDesayuno .container-cards .card2 .container-card, main .recetasDesayuno .container-cards .card3 .container-card, main .recetasDesayuno .container-cards .card4 .container-card, main .recetasComida .container-cards .card1 .container-card, main .recetasComida .container-cards .card2 .container-card, main .recetasComida .container-cards .card3 .container-card, main .recetasComida .container-cards .card4 .container-card, main .recetasCena .container-cards .card1 .container-card, main .recetasCena .container-cards .card2 .container-card, main .recetasCena .container-cards .card3 .container-card, main .recetasCena .container-cards .card4 .container-card, main .populares .container-Cards .card1 .container-card, main .populares .container-Cards .card2 .container-card, main .populares .container-Cards .card3 .container-card, main .populares .container-Cards .card4 .container-card, main .receta .card1 .container-card, main .receta .card2 .container-card, main .receta .card3 .container-card, main .receta .card4 .container-card {
+  padding: 16px;
+  width: 282px;
+  height: 361px;
+  border-radius: 20px;
+  background-color: #F1F1F1;
+  transition: all 400ms ease; }
+  .card .container-card .container-interno, main .recetasDesayuno .container-cards .card1 .container-card .container-interno, main .recetasDesayuno .container-cards .card2 .container-card .container-interno, main .recetasDesayuno .container-cards .card3 .container-card .container-interno, main .recetasDesayuno .container-cards .card4 .container-card .container-interno, main .recetasComida .container-cards .card1 .container-card .container-interno, main .recetasComida .container-cards .card2 .container-card .container-interno, main .recetasComida .container-cards .card3 .container-card .container-interno, main .recetasComida .container-cards .card4 .container-card .container-interno, main .recetasCena .container-cards .card1 .container-card .container-interno, main .recetasCena .container-cards .card2 .container-card .container-interno, main .recetasCena .container-cards .card3 .container-card .container-interno, main .recetasCena .container-cards .card4 .container-card .container-interno, main .populares .container-Cards .card1 .container-card .container-interno, main .populares .container-Cards .card2 .container-card .container-interno, main .populares .container-Cards .card3 .container-card .container-interno, main .populares .container-Cards .card4 .container-card .container-interno, main .receta .card1 .container-card .container-interno, main .receta .card2 .container-card .container-interno, main .receta .card3 .container-card .container-interno, main .receta .card4 .container-card .container-interno {
+    width: 250px;
+    height: 329px;
+    padding: 16px;
+    margin: 0 auto; }
+    .card .container-card .container-interno .imagen, main .recetasDesayuno .container-cards .card1 .container-card .container-interno .imagen, main .recetasDesayuno .container-cards .card2 .container-card .container-interno .imagen, main .recetasDesayuno .container-cards .card3 .container-card .container-interno .imagen, main .recetasDesayuno .container-cards .card4 .container-card .container-interno .imagen, main .recetasComida .container-cards .card1 .container-card .container-interno .imagen, main .recetasComida .container-cards .card2 .container-card .container-interno .imagen, main .recetasComida .container-cards .card3 .container-card .container-interno .imagen, main .recetasComida .container-cards .card4 .container-card .container-interno .imagen, main .recetasCena .container-cards .card1 .container-card .container-interno .imagen, main .recetasCena .container-cards .card2 .container-card .container-interno .imagen, main .recetasCena .container-cards .card3 .container-card .container-interno .imagen, main .recetasCena .container-cards .card4 .container-card .container-interno .imagen, main .populares .container-Cards .card1 .container-card .container-interno .imagen, main .populares .container-Cards .card2 .container-card .container-interno .imagen, main .populares .container-Cards .card3 .container-card .container-interno .imagen, main .populares .container-Cards .card4 .container-card .container-interno .imagen, main .receta .card1 .container-card .container-interno .imagen, main .receta .card2 .container-card .container-interno .imagen, main .receta .card3 .container-card .container-interno .imagen, main .receta .card4 .container-card .container-interno .imagen {
+      width: 100%;
+      height: 198px;
+      border-radius: 10px;
+      object-fit: cover; }
+    .card .container-card .container-interno h3, main .recetasDesayuno .container-cards .card1 .container-card .container-interno h3, main .recetasDesayuno .container-cards .card2 .container-card .container-interno h3, main .recetasDesayuno .container-cards .card3 .container-card .container-interno h3, main .recetasDesayuno .container-cards .card4 .container-card .container-interno h3, main .recetasComida .container-cards .card1 .container-card .container-interno h3, main .recetasComida .container-cards .card2 .container-card .container-interno h3, main .recetasComida .container-cards .card3 .container-card .container-interno h3, main .recetasComida .container-cards .card4 .container-card .container-interno h3, main .recetasCena .container-cards .card1 .container-card .container-interno h3, main .recetasCena .container-cards .card2 .container-card .container-interno h3, main .recetasCena .container-cards .card3 .container-card .container-interno h3, main .recetasCena .container-cards .card4 .container-card .container-interno h3, main .populares .container-Cards .card1 .container-card .container-interno h3, main .populares .container-Cards .card2 .container-card .container-interno h3, main .populares .container-Cards .card3 .container-card .container-interno h3, main .populares .container-Cards .card4 .container-card .container-interno h3, main .receta .card1 .container-card .container-interno h3, main .receta .card2 .container-card .container-interno h3, main .receta .card3 .container-card .container-interno h3, main .receta .card4 .container-card .container-interno h3 {
+      font-size: 1.4375rem;
+      text-align: left;
+      font-weight: 400;
+      margin-top: 10px;
+      font-family: Quicksand; }
+  .card .container-card .container-calificacion, main .recetasDesayuno .container-cards .card1 .container-card .container-calificacion, main .recetasDesayuno .container-cards .card2 .container-card .container-calificacion, main .recetasDesayuno .container-cards .card3 .container-card .container-calificacion, main .recetasDesayuno .container-cards .card4 .container-card .container-calificacion, main .recetasComida .container-cards .card1 .container-card .container-calificacion, main .recetasComida .container-cards .card2 .container-card .container-calificacion, main .recetasComida .container-cards .card3 .container-card .container-calificacion, main .recetasComida .container-cards .card4 .container-card .container-calificacion, main .recetasCena .container-cards .card1 .container-card .container-calificacion, main .recetasCena .container-cards .card2 .container-card .container-calificacion, main .recetasCena .container-cards .card3 .container-card .container-calificacion, main .recetasCena .container-cards .card4 .container-card .container-calificacion, main .populares .container-Cards .card1 .container-card .container-calificacion, main .populares .container-Cards .card2 .container-card .container-calificacion, main .populares .container-Cards .card3 .container-card .container-calificacion, main .populares .container-Cards .card4 .container-card .container-calificacion, main .receta .card1 .container-card .container-calificacion, main .receta .card2 .container-card .container-calificacion, main .receta .card3 .container-card .container-calificacion, main .receta .card4 .container-card .container-calificacion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; }
+    .card .container-card .container-calificacion div p, main .recetasDesayuno .container-cards .card1 .container-card .container-calificacion div p, main .recetasDesayuno .container-cards .card2 .container-card .container-calificacion div p, main .recetasDesayuno .container-cards .card3 .container-card .container-calificacion div p, main .recetasDesayuno .container-cards .card4 .container-card .container-calificacion div p, main .recetasComida .container-cards .card1 .container-card .container-calificacion div p, main .recetasComida .container-cards .card2 .container-card .container-calificacion div p, main .recetasComida .container-cards .card3 .container-card .container-calificacion div p, main .recetasComida .container-cards .card4 .container-card .container-calificacion div p, main .recetasCena .container-cards .card1 .container-card .container-calificacion div p, main .recetasCena .container-cards .card2 .container-card .container-calificacion div p, main .recetasCena .container-cards .card3 .container-card .container-calificacion div p, main .recetasCena .container-cards .card4 .container-card .container-calificacion div p, main .populares .container-Cards .card1 .container-card .container-calificacion div p, main .populares .container-Cards .card2 .container-card .container-calificacion div p, main .populares .container-Cards .card3 .container-card .container-calificacion div p, main .populares .container-Cards .card4 .container-card .container-calificacion div p, main .receta .card1 .container-card .container-calificacion div p, main .receta .card2 .container-card .container-calificacion div p, main .receta .card3 .container-card .container-calificacion div p, main .receta .card4 .container-card .container-calificacion div p {
+      font-size: 0.875rem; }
+
+.card .container-card:hover, main .recetasDesayuno .container-cards .card1 .container-card:hover, main .recetasDesayuno .container-cards .card2 .container-card:hover, main .recetasDesayuno .container-cards .card3 .container-card:hover, main .recetasDesayuno .container-cards .card4 .container-card:hover, main .recetasComida .container-cards .card1 .container-card:hover, main .recetasComida .container-cards .card2 .container-card:hover, main .recetasComida .container-cards .card3 .container-card:hover, main .recetasComida .container-cards .card4 .container-card:hover, main .recetasCena .container-cards .card1 .container-card:hover, main .recetasCena .container-cards .card2 .container-card:hover, main .recetasCena .container-cards .card3 .container-card:hover, main .recetasCena .container-cards .card4 .container-card:hover, main .populares .container-Cards .card1 .container-card:hover, main .populares .container-Cards .card2 .container-card:hover, main .populares .container-Cards .card3 .container-card:hover, main .populares .container-Cards .card4 .container-card:hover, main .receta .card1 .container-card:hover, main .receta .card2 .container-card:hover, main .receta .card3 .container-card:hover, main .receta .card4 .container-card:hover {
+  box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+  transform: translateY(-3%); }
+
+/* 2.- Base*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* 3.- Layout*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  position: sticky; }
+
+/*hero-section*/
+.hero {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(8, 100px);
+  gap: 32px; }
+  .hero .container-content {
+    grid-column: 4 / span 6;
+    grid-row: 3 / span 4;
+    font-size: 64px;
+    text-align: center; }
+    .hero .container-content h1 {
+      margin-bottom: 1.5rem;
+      font-family: Quicksand; }
+  .hero .input-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 4 / span 6;
+    grid-row: 6 / span 2;
+    gap: 3rem; }
+    .hero .input-button input {
+      grid-column: 3 / span 6;
+      grid-row: 4 / span 4;
+      width: 384px;
+      height: 44px;
+      border-radius: 8px;
+      padding: 5px 10px; }
+    .hero .input-button input::placeholder {
+      text-align: center;
+      font-family: Quicksand;
+      color: #212121; }
+    .hero .input-button button {
+      grid-column: 3 / span 6;
+      grid-row: 5 / span 4;
+      width: 180px;
+      height: 56px;
+      background-color: #365902;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-family: Quicksand;
+      font-size: 16px; }
+    .hero .input-button button:hover {
+      background-color: #5b793e;
+      color: white; }
+  .hero .image.top-left {
+    width: 100%;
+    height: 100%;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 4; }
+  .hero .image.top-right {
+    width: 60%;
+    height: 60%;
+    grid-column: 9 / span 4;
+    grid-row: 2 / span 4; }
+  .hero .image.bottom-left {
+    width: 60%;
+    height: 60%;
+    grid-column: 3 / span 4;
+    grid-row: 6 / span 4; }
+  .hero .image.bottom-right {
+    width: 100%;
+    height: 100%;
+    grid-column: 7 / span 6;
+    grid-row: 6 / span 4; }
+  .hero .image {
+    object-fit: cover; }
+
+main {
+  /*fridge-section*/
+  /*benefits-section*/
+  /*breakfast-recipes-section*/
+  /*banner-store-section*/
+  /*food-recipes-section*/
+  /*dinner-recipes-section*/
+  /*banner-newsletter-section*/ }
+  main .contenidoRefri {
+    background-color: #365902;
+    text-align: center;
+    padding-bottom: 6rem;
+    padding-top: 6rem; }
+    main .contenidoRefri div h2 {
+      font-family: Quicksand;
+      font-size: 2.5625rem;
+      text-align: center;
+      color: #FFFFFF;
+      padding-top: 6rem;
+      padding-bottom: 1rem; }
+    main .contenidoRefri div p {
+      font-family: Quicksand;
+      font-size: 1.4375rem;
+      text-align: center;
+      color: #FFFFFF;
+      padding-bottom: 4.5rem; }
+    main .contenidoRefri div .refri-seccion {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 16px;
+      padding-bottom: 6rem; }
+    main .contenidoRefri div .imagen:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%);
+      transition: all 400ms ease; }
+  main .queTeOfrecemos .tituloSeccion h2 {
+    font-family: Quicksand;
+    font-size: 2.5625rem;
+    text-align: center;
+    color: #212121;
+    padding-top: 6rem;
+    padding-bottom: 1rem; }
+  main .queTeOfrecemos .tituloSeccion p {
+    font-family: Quicksand;
+    font-size: 1.4375rem;
+    text-align: center;
+    color: #212121;
+    padding-bottom: 4.5rem; }
+  main .queTeOfrecemos .cardsBeneficios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    text-align: center; }
+    main .queTeOfrecemos .cardsBeneficios .containerCd {
+      width: 384px;
+      height: 384px;
+      background-color: #FFFFFF;
+      border-radius: 20px; }
+      main .queTeOfrecemos .cardsBeneficios .containerCd div {
+        padding-bottom: 1rem; }
+      main .queTeOfrecemos .cardsBeneficios .containerCd h3 {
+        font-family: Quicksand;
+        font-size: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem; }
+      main .queTeOfrecemos .cardsBeneficios .containerCd p {
+        font-family: Quicksand;
+        font-size: 1rem; }
+  main .recetasDesayuno div h2 {
+    font-family: Quicksand;
+    font-size: 2.5625rem;
+    text-align: center;
+    color: #212121;
+    padding-top: 6rem;
+    padding-bottom: 1rem; }
+  main .recetasDesayuno div p {
+    font-family: Quicksand;
+    font-size: 1.4375rem;
+    text-align: center;
+    color: #212121;
+    padding-bottom: 4.5rem; }
+  main .recetasDesayuno .container-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    padding-bottom: 6rem; }
+  main .appBanner {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    background-color: #5b793e;
+    width: 1700px;
+    height: 828px;
+    border-radius: 20px;
+    padding-top: 80px;
+    margin: auto; }
+    main .appBanner .textContenido {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-left: 124px; }
+      main .appBanner .textContenido h2 {
+        font-family: Quicksand;
+        font-size: 4.125rem;
+        color: #FFFFFF;
+        padding-right: 3rem;
+        padding-bottom: 24px; }
+      main .appBanner .textContenido p {
+        font-family: Quicksand;
+        color: #FFFFFF;
+        font-size: 1.4375rem;
+        padding-bottom: 24px; }
+    main .appBanner .IMG {
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      align-items: center; }
+  main .recetasComida div h2 {
+    font-family: Quicksand;
+    font-size: 2.5625rem;
+    text-align: center;
+    color: #212121;
+    padding-top: 6rem;
+    padding-bottom: 1rem; }
+  main .recetasComida div p {
+    font-family: Quicksand;
+    font-size: 1.4375rem;
+    text-align: center;
+    color: #212121;
+    padding-bottom: 4.5rem; }
+  main .recetasComida .container-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    padding-bottom: 6rem; }
+  main .recetasCena div h2 {
+    font-family: Quicksand;
+    font-size: 2.5625rem;
+    text-align: center;
+    color: #212121;
+    padding-top: 6rem;
+    padding-bottom: 1rem; }
+  main .recetasCena div p {
+    font-family: Quicksand;
+    font-size: 1.4375rem;
+    text-align: center;
+    color: #212121;
+    padding-bottom: 4.5rem; }
+  main .recetasCena .container-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    padding-bottom: 6rem; }
+  main .banner {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 100px);
+    gap: 32px;
+    background-color: #A62F14;
+    width: 1700px;
+    height: auto;
+    border-radius: 20px;
+    padding-top: 0px;
+    margin: auto; }
+    main .banner .imagen-superior {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-column: 10 / span 3;
+      grid-row: 1 / span 3;
+      justify-self: end; }
+    main .banner .contenido {
+      padding-top: 2.5rem;
+      grid-column: 4 / span 6;
+      grid-row: 3 / span 3;
+      text-align: center; }
+      main .banner .contenido h2 {
+        margin-bottom: 20px;
+        font-family: Quicksand;
+        font-size: 4.625rem;
+        color: #FFFFFF;
+        margin-bottom: 20px; }
+      main .banner .contenido p {
+        margin-bottom: 24px;
+        font-family: Quicksand;
+        font-size: 1.4375rem;
+        color: #FFFFFF; }
+      main .banner .contenido form input {
+        font-family: Quicksand;
+        padding: 10px;
+        background-color: #A62F14;
+        border: 1px solid #FFFFFF;
+        border-radius: 8px;
+        margin-right: 16px; }
+      main .banner .contenido form input::placeholder {
+        text-align: center;
+        font-family: Quicksand;
+        color: #FFFFFF; }
+      main .banner .contenido form button {
+        font-family: Quicksand;
+        padding: 10px 20px;
+        background-color: #365902;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer; }
+      main .banner .contenido form button:hover {
+        background-color: #5b793e;
+        color: white; }
+    main .banner .imagen-inferior {
+      grid-column: 1 / span 3;
+      grid-row: 5 / span 3;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      justify-self: start; }
+
+main {
+  /*recipes-section*/
+  /*ingredients-section*/ }
+  main .populares h2 {
+    font-family: Quicksand;
+    color: #212121;
+    font-size: 2.5625rem;
+    padding-left: 145px;
+    padding-top: 6rem;
+    padding-bottom: 3rem; }
+  main .populares .container-Cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    padding-bottom: 6rem; }
+    main .populares .container-Cards .card1 p {
+      font-family: Quicksand; }
+    main .populares .container-Cards .card2 p {
+      font-family: Quicksand; }
+    main .populares .container-Cards .card3 p {
+      font-family: Quicksand; }
+    main .populares .container-Cards .card4 p {
+      font-family: Quicksand; }
+  main .recetasIngredientes h2 {
+    font-family: Quicksand;
+    color: #212121;
+    font-size: 2.5625rem;
+    padding-left: 145px;
+    padding-top: 3rem;
+    padding-bottom: 3rem; }
+  main .recetasIngredientes .containerCardingredientes {
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 1.5rem; }
+    main .recetasIngredientes .containerCardingredientes .cardIngredientes1 {
+      background-color: none;
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .recetasIngredientes .containerCardingredientes .cardIngredientes1 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .recetasIngredientes .containerCardingredientes .cardIngredientes1:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+    main .recetasIngredientes .containerCardingredientes .cardIngredientes2 {
+      background-color: none;
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .recetasIngredientes .containerCardingredientes .cardIngredientes2 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .recetasIngredientes .containerCardingredientes .cardIngredientes2:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+    main .recetasIngredientes .containerCardingredientes .cardIngredientes3 {
+      background-color: none;
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .recetasIngredientes .containerCardingredientes .cardIngredientes3 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .recetasIngredientes .containerCardingredientes .cardIngredientes3:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+    main .recetasIngredientes .containerCardingredientes .cardIngredientes4 {
+      background-color: none;
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .recetasIngredientes .containerCardingredientes .cardIngredientes4 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .recetasIngredientes .containerCardingredientes .cardIngredientes4:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+    main .recetasIngredientes .containerCardingredientes .cardIngredientes51 {
+      background-color: none;
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .recetasIngredientes .containerCardingredientes .cardIngredientes51 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .recetasIngredientes .containerCardingredientes .cardIngredientes51:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+
+@media (max-width: 320px) {
+  main {
+    margin: 0 auto;
+    width: 80%; }
+  .container-Cards {
+    display: flex; }
+  .card1 {
+    grid-column: 1 / span 2; }
+  .card2 {
+    grid-column: 3 /span 2; }
+  .card3 {
+    grid-column: 1 /span 2;
+    grid-row: 2 / span 2; }
+  .card4 {
+    grid-column: 3 /span 2;
+    grid-row: 2 / span 2; }
+  .container-card {
+    padding: 16px;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #F1F1F1; }
+  .container-interno {
+    width: 180px;
+    height: auto;
+    padding: 16px;
+    margin: 0 auto; }
+  .imagen {
+    width: 100%;
+    height: 95px;
+    border-radius: 10px;
+    object-fit: cover; }
+  .titulo {
+    font-family: Quicksand;
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 400;
+    margin-top: 10px; }
+  .container-calificacion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-family: Quicksand;
+    font-size: .875rem; }
+    .container-calificacion div p {
+      font-size: 14px; }
+  .populares h2 {
+    font-family: Quicksand;
+    color: #212121;
+    font-size: 1.4375rem;
+    padding-left: 16px;
+    padding-top: 3rem;
+    padding-bottom: 3rem; }
+  .containerCardingredientes {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, auto);
+    gap: 16px;
+    padding-left: 20px; }
+  .cardIngredientes1 {
+    grid-column: 1 /span 2;
+    grid-column: 1 / span 2; }
+  .cardIngredientes2 {
+    grid-column: 3 /span 2;
+    grid-column: 3 / span 2; }
+  .cardIngredientes3 {
+    grid-column: 1 /span 2;
+    grid-row: 2 / span 2;
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 2; }
+  .cardIngredientes4 {
+    grid-column: 3 /span 2;
+    grid-row: 2 / span 2;
+    grid-column: 3 / span 2;
+    grid-row: 2 / span 2; }
+  .cardIngredientes51 {
+    grid-column: 1 /span 2;
+    grid-row: 4 / span 2; }
+  .recetasIngredientes h2 {
+    font-family: Quicksand;
+    color: #212121;
+    font-size: 1.4375rem;
+    padding-left: 16px;
+    padding-top: 1rem;
+    padding-bottom: 3rem; }
+  .containerCardingredientes-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(3, 1fr);
+    margin-left: 60px;
+    margin-right: 70px; }
+  .cardIngredientes5 {
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 2; }
+  .cardIngredientes6 {
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 2; }
+  .containerCardingredientes2 {
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(3, 1fr);
+    margin-left: 60px;
+    margin-right: 70px; }
+  .cardIngredientes7 {
+    grid-column: 1 / span 2; }
+  .cardIngredientes8 {
+    grid-column: 3 / span 2; }
+  .cardIngredientes9 {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 2; }
+  .cardIngredientes10 {
+    grid-column: 3 / span 2;
+    grid-row: 2 / span 2; }
+  .cardIngredientes11 {
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 2; }
+  .cardIngredientes12 {
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 2; }
+  .containerCardingredientes1 {
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    margin-left: 60px;
+    margin-right: 70px; }
+  .cardIngredientes13 {
+    grid-column: 1 / span 2; } }
+
+main {
+  /*recipe-detail-section*/ }
+  main .receta {
+    display: grid;
+    grid-template-columns: repeat(12, 78px);
+    grid-template-rows: repeat(8, auto);
+    gap: 24px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /*related-recipes-section*/ }
+    main .receta .titulo {
+      grid-column: 1 / span 9; }
+      main .receta .titulo h1 {
+        font-family: Quicksand;
+        font-size: 2.5625rem;
+        text-align: left;
+        padding-top: 6rem; }
+    main .receta .guardarEn {
+      grid-column: 11 / span 2;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end; }
+      main .receta .guardarEn label {
+        cursor: pointer;
+        text-decoration: none;
+        font-family: Quicksand;
+        font-size: 1rem;
+        color: #9E9E9E; }
+      main .receta .guardarEn .icono {
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+        vertical-align: middle; }
+    main .receta .calificacion {
+      grid-column: 1 / span 2; }
+      main .receta .calificacion p {
+        font-family: Quicksand;
+        font-size: 0.875rem; }
+    main .receta .imagen-principal {
+      grid-column: 1 / span 12;
+      height: 390px;
+      border-radius: 20px;
+      background-size: unset;
+      background-position: absolute;
+      object-fit: cover; }
+    main .receta .ingredientes {
+      grid-column: 1 / span 6; }
+      main .receta .ingredientes h2 {
+        font-family: Quicksand;
+        font-size: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 2rem; }
+      main .receta .ingredientes .lista-ingredientes {
+        grid-column: 1 / span 6;
+        list-style: none;
+        padding: 0; }
+        main .receta .ingredientes .lista-ingredientes li {
+          border-bottom: 1px solid #ddd;
+          font-family: Quicksand;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 10px;
+          padding-top: 1rem;
+          padding-bottom: 1rem; }
+        main .receta .ingredientes .lista-ingredientes span {
+          color: #A62F14; }
+    main .receta .instrucionesReceta {
+      grid-column: 1 / span 6; }
+      main .receta .instrucionesReceta h2 {
+        font-family: Quicksand;
+        font-size: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 2rem; }
+      main .receta .instrucionesReceta h3 {
+        font-family: Quicksand;
+        font-weight: 400;
+        font-size: 1.4375rem;
+        padding-bottom: 2rem; }
+      main .receta .instrucionesReceta p {
+        font-family: Quicksand; }
+      main .receta .instrucionesReceta .imagen-paso {
+        border-radius: 10px;
+        padding-top: 2rem; }
+    main .receta .divider-paso {
+      grid-column: 1 / span 6;
+      background-color: #ccc;
+      height: 1px; }
+    main .receta .recetasRelacionadaS {
+      grid-column: 1 / span 6; }
+      main .receta .recetasRelacionadaS h2 {
+        font-family: Quicksand;
+        font-size: 2rem; }
+    main .receta .card1 {
+      grid-column: 1/span 3;
+      padding-right: 24px; }
+      main .receta .card1 p {
+        font-family: Quicksand; }
+    main .receta .card2 {
+      grid-column: 4 /span 3;
+      padding-right: 24px; }
+      main .receta .card2 p {
+        font-family: Quicksand; }
+    main .receta .card3 {
+      grid-column: 7 /span 3;
+      padding-right: 24px; }
+      main .receta .card3 p {
+        font-family: Quicksand; }
+    main .receta .card4 {
+      grid-column: 10 /span 3;
+      padding-right: 24px; }
+      main .receta .card4 p {
+        font-family: Quicksand; }
+
+main {
+  /*categories-section*/ }
+  main .recetasIngredientes {
+    font-family: Quicksand;
+    color: #212121;
+    font-size: 2.5625rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem; }
+  main .containerCardingredientes-1 {
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    padding-top: 2rem; }
+    main .containerCardingredientes-1 .cardIngredientes1 {
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .containerCardingredientes-1 .cardIngredientes1 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .containerCardingredientes-1 .cardIngredientes1:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+    main .containerCardingredientes-1 .cardIngredientes2 {
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .containerCardingredientes-1 .cardIngredientes2 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .containerCardingredientes-1 .cardIngredientes2:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+    main .containerCardingredientes-1 .cardIngredientes3 {
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .containerCardingredientes-1 .cardIngredientes3 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .containerCardingredientes-1 .cardIngredientes3:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+    main .containerCardingredientes-1 .cardIngredientes4 {
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .containerCardingredientes-1 .cardIngredientes4 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .containerCardingredientes-1 .cardIngredientes4:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+    main .containerCardingredientes-1 .cardIngredientes5 {
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .containerCardingredientes-1 .cardIngredientes5 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .containerCardingredientes-1 .cardIngredientes5:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+    main .containerCardingredientes-1 .cardIngredientes6 {
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .containerCardingredientes-1 .cardIngredientes6 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .containerCardingredientes-1 .cardIngredientes6:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+  main .containerCardingredientes2 {
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    padding-top: 2rem; }
+    main .containerCardingredientes2 .cardIngredientes7 {
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .containerCardingredientes2 .cardIngredientes7 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .containerCardingredientes2 .cardIngredientes7:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+    main .containerCardingredientes2 .cardIngredientes8 {
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .containerCardingredientes2 .cardIngredientes8 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .containerCardingredientes2 .cardIngredientes8:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+    main .containerCardingredientes2 .cardIngredientes9 {
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .containerCardingredientes2 .cardIngredientes9 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .containerCardingredientes2 .cardIngredientes9:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+    main .containerCardingredientes2 .cardIngredientes10 {
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .containerCardingredientes2 .cardIngredientes10 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .containerCardingredientes2 .cardIngredientes10:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+    main .containerCardingredientes2 .cardIngredientes11 {
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .containerCardingredientes2 .cardIngredientes11 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .containerCardingredientes2 .cardIngredientes11:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+    main .containerCardingredientes2 .cardIngredientes12 {
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .containerCardingredientes2 .cardIngredientes12 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .containerCardingredientes2 .cardIngredientes12:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+  main .containerCardingredientes1 {
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 80px;
+    gap: 1.5rem;
+    padding-top: 2rem;
+    padding-left: 55px; }
+    main .containerCardingredientes1 .cardIngredientes13 {
+      width: 180px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      transition: all 400ms ease; }
+      main .containerCardingredientes1 .cardIngredientes13 p {
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: 1rem;
+        text-align: center; }
+    main .containerCardingredientes1 .cardIngredientes13:hover {
+      box-shadow: 5px 5px 20px rgba 0, 0, 0, 2;
+      transform: translateY(-3%); }
+
+/* 4.- Components*/
+/*navbar-section*/
+nav .navBar {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  max-height: 96px;
+  align-items: center; }
+  nav .navBar li a {
+    text-decoration: none;
+    color: #212121;
+    font-size: 1rem;
+    font-family: Quicksand; }
+    nav .navBar li a:hover {
+      color: #365902; }
+  nav .navBar .botonPrincipal {
+    background-color: #365902;
+    border-radius: 30px;
+    padding: 16px 24px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    border: 1px;
+    text-decoration: none;
+    font-family: Quicksand; }
+  nav .navBar .botonPrincipal:hover {
+    background-color: #5b793e;
+    color: white; }
+
+/*footer-section*/
+.footer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 50px);
+  gap: 16px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 6rem; }
+  .footer .logo {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+    padding-bottom: 3rem; }
+  .footer .datos {
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+    margin: 0px;
+    grid-column: 1 / span 6;
+    grid-row: 2 / span 4;
+    padding-top: 1.5rem; }
+    .footer .datos div h2 {
+      font-family: Quicksand;
+      font-size: 1.125rem;
+      font-weight: 500; }
+    .footer .datos div p {
+      font-family: Quicksand;
+      font-size: 1rem;
+      font-weight: 300;
+      padding-top: 1rem; }
+  .footer .descargaDely {
+    display: flex;
+    justify-content: flex-start;
+    grid-column: 9 / span 2;
+    grid-row: 2 / span 1;
+    text-align: center;
+    padding-top: 1.5rem; }
+    .footer .descargaDely div h2 {
+      font-family: Quicksand;
+      font-size: 1.125rem;
+      font-weight: 500; }
+  .footer .botonesTienda {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    grid-column: 9 / span 2;
+    grid-row: 3 / span 1;
+    gap: 16px; }
+    .footer .botonesTienda .descargaApple {
+      grid-column: 11 / span 2;
+      grid-row: 3 / span 2;
+      text-align: center; }
+    .footer .botonesTienda .descargaAndroid {
+      grid-column: 9 / span 2;
+      grid-row: 3 / span 2;
+      text-align: center; }
+  .footer .containerFollow {
+    align-items: start;
+    grid-column: 9 / span 2;
+    grid-row: 4 / span 1;
+    text-align: center; }
+  .footer .sigue-dely div h2 {
+    font-family: Quicksand;
+    font-size: 1.125rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start; }
+  .footer .redes-sociales {
+    grid-column: 9 / span 2;
+    grid-row: 5 / span 1;
+    display: flex;
+    gap: 16px;
+    justify-content: flex-start;
+    padding-top: 1rem; }
+  .footer .divider {
+    grid-column: 1 / span 12;
+    grid-row: 6 / span 1;
+    background-color: #ccc;
+    height: 1px; }
+  .footer .derechos {
+    grid-column: 1 / span 2;
+    grid-row: 6 / span 1;
+    text-align: left;
+    padding-top: 16px;
+    font-family: Quicksand;
+    font-size: 0.875rem; }
+  .footer .politica {
+    grid-column: 11 / span 2;
+    grid-row: 6 / span 1;
+    text-align: right;
+    padding-top: 16px;
+    font-family: Quicksand;
+    font-size: 0.875rem; }
+
+@media (max-width: 744px) {
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(10, 50px);
+    gap: 16px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 6rem; }
+  .datos {
+    display: flex;
+    justify-content: flex-start;
+    gap: 48px;
+    margin: 0px;
+    grid-column: 1 / span 12;
+    grid-row: 2 / span 4;
+    padding-top: 1.5rem; }
+  .descargaDely {
+    display: flex;
+    justify-content: flex-start;
+    grid-column: 1 / span 3;
+    grid-row: 5 / span 12;
+    text-align: center;
+    padding-top: 1.5rem; }
+  .botonesTienda {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    grid-column: 1 / span 2;
+    grid-row: 6 / span 1;
+    gap: 16px; }
+  .containerFollow {
+    align-items: start;
+    grid-column: 1 / span 3;
+    grid-row: 7 / span 1;
+    text-align: center; }
+  .sigue-dely {
+    grid-column: 1 / span 2;
+    grid-row: 8 / span 1;
+    text-align: center; }
+  .redes-sociales {
+    grid-column: 1 / span 2;
+    grid-row: 9 / span 1;
+    display: flex;
+    gap: 16px;
+    justify-content: flex-start;
+    padding-top: 1rem; }
+    .redes-sociales button {
+      margin: 0 5px; }
+  .divider {
+    grid-column: 1 / span 12;
+    grid-row: 9 / span 1;
+    background-color: #ccc;
+    height: 1px; }
+  .derechos {
+    grid-column: 1 / span 2;
+    grid-row: 9 / span 1;
+    text-align: left;
+    padding-top: 16px;
+    font-family: Quicksand;
+    font-size: .875rem; }
+  .politica {
+    grid-column: 11 / span 2;
+    grid-row: 9 / span 1;
+    text-align: right;
+    padding-top: 16px;
+    font-family: Quicksand;
+    font-size: .875rem; } }
+
+body .sign-up {
+  margin-top: 20px;
+  background: #ffffff; }
+
+.card-body {
+  box-shadow: 5px 5px 50px #21212123;
+  border-radius: 30px; }
+
+.account-block {
+  padding: 0;
+  background-image: url(../assets/img/form-registro/side-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px; }
+  .account-block .overlay {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px; }
+  .account-block .account-testimonial {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 1.75rem;
+    bottom: 3rem;
+    left: 0;
+    right: 0; }
+
+.mb-5 h1 {
+  font-family: Quicksand;
+  font-size: 2rem;
+  color: #212121;
+  font-weight: 800; }
+
+.p-5 p {
+  font-family: Quicksand; }
+
+.text-theme {
+  color: #212121 !important; }
+
+.btn-theme {
+  background-color: #365902;
+  border-color: #365902;
+  color: #fff;
+  border-radius: 30px;
+  padding: 16px 24px;
+  font-size: 1rem;
+  font-family: Quicksand; }
+
+.form-group label {
+  font-family: Quicksand;
+  font-size: 0.875rem; }
+
+.account-testimonial h4 {
+  font-family: Quicksand;
+  font-size: 2rem;
+  color: #212121;
+  font-weight: 800; }
+
+.account-testimonial p {
+  font-family: Quicksand;
+  font-size: 1rem;
+  color: #212121;
+  font-weight: 300; }
+
+.text-muted .text-center .mt-3 .mb-0 p {
+  font-family: Quicksand;
+  font-size: 1rem;
+  color: #212121;
+  font-weight: 300; }
+
+.login a {
+  font-family: Quicksand; }
+
+/* 5.- Mediaqueries*/
+/*$color_1: #212121;
+$font-family_1: Quicksand;
+$background-color_1: #F1F1F1;
+$background-color_2: #ccc;
+
+/*queries320px-categories*/
+/*queries-320px-footer
+@media (max-width:320px) {
+	main {
+		margin: 0 auto;
+		width: 80%;
+	}
+	.container-Cards {
+		display: grid;
+		grid-template-columns: repeat(4, 100px);
+		grid-template-rows: repeat(2, auto);
+		gap: 16px;
+		max-width: 288px;
+		margin: 0 auto;
+		align-items: center;
+		padding-left: 240px;
+	}
+	.card1 {
+		grid-column: 1 / span 2;
+	}
+	.card2 {
+		grid-column: 3 /span 2;
+	}
+	.card3 {
+		grid-column: 1 /span 2;
+		grid-row: 2 / span 2;
+	}
+	.card4 {
+		grid-column: 3 /span 2;
+		grid-row: 2 / span 2;
+	}
+	.container-card {
+		padding: 16px;
+		width: 200px;
+		height: 300px;
+		border-radius: 20px;
+		background-color: $background-color_1;
+	}
+	.container-interno {
+		width: 180px;
+		height: auto;
+		padding: 16px;
+		margin: 0 auto;
+	}
+	.imagen {
+		width: 100%;
+		height: 95px;
+		border-radius: 10px;
+		object-fit: cover;
+	}
+	.titulo {
+		font-family: $font-family_1;
+		font-size: 1rem;
+		text-align: left;
+		font-weight: 400;
+		margin-top: 10px;
+	}
+	.container-calificacion {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 10px;
+		font-family: $font-family_1;
+		font-size: .875rem;
+		div {
+			p {
+				font-size: 14px;
+			}
+		}
+	}
+	.populares {
+		h2 {
+			font-family: $font-family_1;
+			color: $color_1;
+			font-size: 1.4375rem;
+			padding-left: 16px;
+			padding-top: 3rem;
+			padding-bottom: 3rem;
+		}
+	}
+	.containerCardingredientes {
+		display: grid;
+		grid-template-columns: repeat(4, 100px);
+		grid-template-rows: repeat(4, auto);
+		gap: 16px;
+		padding-left: 20px;
+	}
+	.cardIngredientes1 {
+		grid-column: 1 /span 2;
+		grid-column: 1 / span 2;
+	}
+	.cardIngredientes2 {
+		grid-column: 3 /span 2;
+		grid-column: 3 / span 2;
+	}
+	.cardIngredientes3 {
+		grid-column: 1 /span 2;
+		grid-row: 2 / span 2;
+		grid-column: 1 / span 2;
+		grid-row: 2 / span 2;
+	}
+	.cardIngredientes4 {
+		grid-column: 3 /span 2;
+		grid-row: 2 / span 2;
+		grid-column: 3 / span 2;
+		grid-row: 2 / span 2;
+	}
+	.cardIngredientes51 {
+		grid-column: 1 /span 2;
+		grid-row: 4 / span 2;
+	}
+	.recetasIngredientes {
+		h2 {
+			font-family: $font-family_1;
+			color: $color_1;
+			font-size: 1.4375rem;
+			padding-left: 16px;
+			padding-top: 1rem;
+			padding-bottom: 3rem;
+		}
+	}
+	.containerCardingredientes-1 {
+		display: grid;
+		grid-template-columns: repeat(4,70px);
+		grid-template-rows: repeat(3,1fr);
+		margin-left: 60px;
+		margin-right: 70px;
+	}
+	.cardIngredientes5 {
+		grid-column: 1 / span 2;
+		grid-row: 3 / span 2;
+	}
+	.cardIngredientes6 {
+		grid-column: 3 / span 2;
+		grid-row: 3 / span 2;
+	}
+	.containerCardingredientes2 {
+		display: grid;
+		grid-template-columns: repeat(4,70px);
+		grid-template-rows: repeat(3,1fr);
+		margin-left: 60px;
+		margin-right: 70px;
+	}
+	.cardIngredientes7 {
+		grid-column: 1 / span 2;
+	}
+	.cardIngredientes8 {
+		grid-column: 3 / span 2;
+	}
+	.cardIngredientes9 {
+		grid-column: 1 / span 2;
+		grid-row: 2 / span 2;
+	}
+	.cardIngredientes10 {
+		grid-column: 3 / span 2;
+		grid-row: 2 / span 2;
+	}
+	.cardIngredientes11 {
+		grid-column: 1 / span 2;
+		grid-row: 3 / span 2;
+	}
+	.cardIngredientes12 {
+		grid-column: 3 / span 2;
+		grid-row: 3 / span 2;
+	}
+	.containerCardingredientes1 {
+		display: grid;
+		grid-template-columns: repeat(4,70px);
+		margin-left: 60px;
+		margin-right: 70px;
+	}
+	.cardIngredientes13 {
+		grid-column: 1 / span 2;
+	}
+	.footer {
+		display: grid;
+		grid-template-columns: repeat(4, 70px);
+		grid-template-rows: repeat(13, 50px);
+		gap: 16px;
+		margin-left: 70px;
+		margin-right: 70px;
+		margin-top: 6rem;
+	}
+	.datos {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		gap: 48px;
+		margin: 0px;
+		grid-column: 1 / span 4;
+		grid-row: 2 / span 4;
+		padding-top: 1.5rem;
+	}
+	.descargaDely {
+		display: flex;
+		justify-content: flex-start;
+		grid-column: 1 / span 3;
+		grid-row: 9 / span 1;
+		text-align: center;
+		padding-top: 1.5rem;
+	}
+	.botonesTienda {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		grid-column: 1 / span 2;
+		grid-row: 10 / span 1;
+		gap: 16px;
+	}
+	.containerFollow {
+		align-items: start;
+		grid-column: 1 / span 3;
+		grid-row: 11 / span 1;
+		text-align: center;
+	}
+	.sigue-dely {
+		grid-column: 1 / span 2;
+		grid-row: 8 / span 1;
+		text-align: center;
+	}
+	.redes-sociales {
+		grid-column: 1 / span 2;
+		grid-row: 9 / span 1;
+		display: flex;
+		gap: 16px;
+		justify-content: flex-start;
+		padding-top: 1rem;
+		button {
+			margin: 0 5px;
+		}
+	}
+	.divider {
+		grid-column: 1 / span 12;
+		grid-row: 13 / span 1;
+		background-color: $background-color_2;
+		height: 1px;
+	}
+	.derechos {
+		grid-column: 1 / span 2;
+		grid-row: 13 / span 2;
+		text-align: left;
+		padding-top: 16px;
+		font-family: $font-family_1;
+		font-size: .875rem;
+	}
+	.politica {
+		grid-column: 3 / span 2;
+		grid-row: 13 / span 1;
+		text-align: right;
+		padding-top: 16px;
+		font-family: $font-family_1;
+		font-size: .875rem;
+	}
+}*/
+/*$color_1: #212121;
+$font-family_1: Quicksand;
+$background-color_1: none;
+$background-color_2: #ccc;
+
+/*media-queries*/
+/*queries744px-categories*/
+/*queries-744px-footer
+@media (max-width: 744px) {
+	.container-Cards {
+		justify-content: center;
+		align-items: center;
+	}
+	.populares {
+		h2 {
+			font-family: $font-family_1;
+			color: $color_1;
+			font-size: 2rem;
+			padding-left: 50px;
+			padding-top: 3rem;
+			padding-bottom: 3rem;
+		}
+	}
+	.recetasIngredientes {
+		h2 {
+			font-family: $font-family_1;
+			color: $color_1;
+			font-size: 2rem;
+			padding-left: 50px;
+			padding-top: 3rem;
+			padding-bottom: 3rem;
+		}
+	}
+	.containerCardingredientes-1 {
+		background-color: $background-color_1;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		justify-content: space-evenly;
+		gap: 1.5rem;
+		padding-top: 2rem;
+	}
+	.containerCardingredientes2 {
+		background-color: $background-color_1;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		justify-content: space-evenly;
+		gap: 1.5rem;
+		padding-top: 2rem;
+	}
+	.containerCardingredientes1 {
+		background-color: $background-color_1;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		margin-left: 40px;
+	}
+	.footer {
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: repeat(10, 50px);
+		gap: 16px;
+		margin-left: 70px;
+		margin-right: 70px;
+		margin-top: 6rem;
+	}
+	.datos {
+		display: flex;
+		justify-content: flex-start;
+		gap: 48px;
+		margin: 0px;
+		grid-column: 1 / span 12;
+		grid-row: 2 / span 4;
+		padding-top: 1.5rem;
+	}
+	.descargaDely {
+		display: flex;
+		justify-content: flex-start;
+		grid-column: 1 / span 3;
+		grid-row: 5 / span 12;
+		text-align: center;
+		padding-top: 1.5rem;
+	}
+	.botonesTienda {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		grid-column: 1 / span 2;
+		grid-row: 6 / span 1;
+		gap: 16px;
+	}
+	.containerFollow {
+		align-items: start;
+		grid-column: 1 / span 3;
+		grid-row: 7 / span 1;
+		text-align: center;
+	}
+	.sigue-dely {
+		grid-column: 1 / span 2;
+		grid-row: 8 / span 1;
+		text-align: center;
+	}
+	.redes-sociales {
+		grid-column: 1 / span 2;
+		grid-row: 9 / span 1;
+		display: flex;
+		gap: 16px;
+		justify-content: flex-start;
+		padding-top: 1rem;
+		button {
+			margin: 0 5px;
+		}
+	}
+	.divider {
+		grid-column: 1 / span 12;
+		grid-row: 9 / span 1;
+		background-color: $background-color_2;
+		height: 1px;
+	}
+	.derechos {
+		grid-column: 1 / span 2;
+		grid-row: 9 / span 1;
+		text-align: left;
+		padding-top: 16px;
+		font-family: $font-family_1;
+		font-size: .875rem;
+	}
+	.politica {
+		grid-column: 11 / span 2;
+		grid-row: 9 / span 1;
+		text-align: right;
+		padding-top: 16px;
+		font-family: $font-family_1;
+		font-size: .875rem;
+	}
+}*/

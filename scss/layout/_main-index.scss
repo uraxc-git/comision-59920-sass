@@ -1,0 +1,329 @@
+main {
+/*fridge-section*/
+    .contenidoRefri {
+        background-color: $primary-color;
+        text-align: center;
+        padding-bottom: 6rem;
+        padding-top: 6rem;
+
+        div {
+            h2 {
+                @include sectionTitles ($neutral-color-white);
+            }
+
+            p {
+                @include sectionp ($neutral-color-white);
+            }
+
+            .refri-seccion {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 16px;
+                padding-bottom: 6rem;
+
+            }
+
+            .imagen:hover {
+                box-shadow: 5px 5px 20px rgba (0,0,0,2);
+                transform:translateY(-3%);
+                transition: all 400ms ease;
+            }
+        }
+    }
+/*benefits-section*/
+    .queTeOfrecemos {
+
+        .tituloSeccion {
+
+            h2 {
+                @include sectionTitles ($neutral-color-1);
+            }
+
+            p {
+                @include sectionp ($neutral-color-1);
+            }
+        }
+
+        .cardsBeneficios {
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-content: space-evenly;
+            padding-top: 3rem;
+            text-align: center;
+
+            .containerCd {
+                width: 384px;
+                height: 384px;
+                background-color: $neutral-color-white;
+                border-radius: 20px;
+
+                div {
+                    padding-bottom: 1rem;
+                }
+
+                h3 {
+                    font-family: Quicksand;
+                    font-size: map-get($type-scale , heading-sm-bold);
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                }
+
+                p {
+                    font-family: Quicksand;
+                    font-size: map-get($type-scale, body-sm-regular);
+                }
+            }
+
+        }
+    }
+/*breakfast-recipes-section*/
+    .recetasDesayuno {
+
+        div {
+
+            h2 {
+                @include sectionTitles ($neutral-color-1);
+            }
+
+            p {
+                @include sectionp ($neutral-color-1);
+            }
+        }
+
+        .container-cards {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-content: space-evenly;
+            gap: 1.5rem;
+            padding-bottom: 6rem;
+
+            .card1 {
+                @extend .card;
+            }
+
+            .card2 {
+                @extend .card;
+            }
+
+            .card3 {
+                @extend .card;
+            }
+
+            .card4 {
+                @extend .card;
+            }
+        }
+    }
+/*banner-store-section*/
+    .appBanner {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        background-color: $primary-color-tint-2;
+        width: 1700px;
+        height: 828px;
+        border-radius: 20px;
+        padding-top: 80px;
+        margin: auto;
+
+        .textContenido {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:flex-start;
+            padding-left: 124px;
+
+            h2 {
+                font-family: Quicksand;
+                font-size: map-get($type-scale , display-sm-bold);
+                color: $neutral-color-white;
+                padding-right: 3rem;
+                padding-bottom: 24px;
+            }
+
+            p {
+                font-family: Quicksand;
+                color: $neutral-color-white;
+                font-size: map-get($type-scale, heading-xs-regular);
+                padding-bottom: 24px; 
+            }
+        }
+
+        .IMG {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items:center;
+        }
+    }
+/*food-recipes-section*/
+    .recetasComida{
+                
+        div {
+
+            h2 {
+                @include sectionTitles  ($neutral-color-1);
+            }
+
+            p {
+                @include sectionp ($neutral-color-1)
+            }
+        }
+
+        .container-cards {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-content: space-evenly;
+            gap: 1.5rem;
+            padding-bottom: 6rem;
+
+            .card1 {
+                @extend .card;
+            }
+
+            .card2 {
+                @extend .card;
+            }
+
+            .card3 {
+                @extend .card;
+            }
+
+            .card4 {
+                @extend .card;
+            }
+        }
+    }
+/*dinner-recipes-section*/
+    .recetasCena {
+                
+        div {
+
+            h2 {
+                @include sectionTitles ($neutral-color-1);
+            }
+
+            p {
+                @include sectionp ($neutral-color-1);
+            }
+        }
+
+        .container-cards {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-content: space-evenly;
+            gap: 1.5rem;
+            padding-bottom: 6rem;
+
+            .card1 {
+                @extend .card;
+            }
+
+            .card2 {
+                @extend .card;
+            }
+
+            .card3 {
+                @extend .card;
+            }
+
+            .card4 {
+                @extend .card;
+            }
+        }
+    }
+/*banner-newsletter-section*/
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(6, 100px);
+        gap: 32px;
+        background-color: $secondary-color;
+        width: 1700px;
+        height: auto;
+        border-radius: 20px;
+        padding-top: 0px;
+        margin: auto;
+        
+        .imagen-superior {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            grid-column: 10 / span 3;
+            grid-row: 1 / span 3;
+            justify-self: end;
+        }
+
+        .contenido {
+            padding-top: 2.5rem;
+            grid-column: 4 / span 6;
+            grid-row: 3 / span 3;
+            text-align: center;
+
+            h2 {
+                margin-bottom: 20px;
+                font-family: Quicksand;
+                font-size: map-get($type-scale, display-lg-bold);
+                color: $neutral-color-white;
+                margin-bottom: 20px;
+            }
+
+            p {
+                margin-bottom: 24px;
+                font-family: Quicksand;
+                font-size: map-get($type-scale, heading-xs-regular);
+                color: $neutral-color-white;
+            }
+
+            form {
+                input {
+                    font-family: Quicksand; 
+                    padding: 10px;
+                    background-color: $secondary-color;
+                    border: 1px solid $neutral-color-white;
+                    border-radius: 8px;
+                    margin-right: 16px;
+                }
+
+                input::placeholder{
+                    text-align: center;
+                    font-family: Quicksand;
+                    color: $neutral-color-white;
+                }
+
+                button {
+                    font-family: Quicksand;
+                    padding: 10px 20px;
+                    background-color: #365902;
+                    color: $neutral-color-white;
+                    border: none;
+                    border-radius: 30px;
+                    cursor: pointer;
+                }
+
+                button:hover {
+                    background-color: $primary-color-tint-2; 
+                    color: white;
+                }
+            }
+        }
+
+        .imagen-inferior {
+            grid-column: 1 / span 3;
+            grid-row: 5 / span 3;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            justify-self: start;
+        }
+    }
+}

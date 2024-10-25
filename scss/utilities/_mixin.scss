@@ -1,0 +1,17 @@
+/*mixin-titles-p*/
+@mixin sectionTitles ($color) {
+    font-family: Quicksand;
+    font-size: map-get($type-scale , heading-md-bold);
+    text-align: center;
+    color: $color;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+}
+
+@mixin sectionp ($color) {
+    font-family: Quicksand;
+    font-size: map-get($type-scale , heading-xs-regular);
+    text-align: center;
+    color: $color;
+    padding-bottom: 4.5rem;
+}

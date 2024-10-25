@@ -1,0 +1,31 @@
+/* 1.- Utilities*/
+@import "./utilities/maps";
+@import "./utilities/variables";
+@import "./utilities/mixin";
+@import "./utilities/extend-cards";
+
+/* 2.- Base*/
+@import "./base/reset";
+@import "./base/typography";
+
+/* 3.- Layout*/
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/main-index";
+@import "./layout/main-recipes";
+@import "./layout/main-detail-recipe";
+@import "./layout/main-categories";
+
+
+/* 4.- Components*/
+@import "./components/navbar";
+@import "./components/footer";
+@import "./components/bootstrap";
+
+/* 5.- Mediaqueries*/
+@import "./layout/mediaQueries/mediaQ-320-px";
+@import "./layout/mediaQueries/mediaQ-744-px";
+
+
+
+

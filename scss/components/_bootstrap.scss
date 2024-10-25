@@ -1,0 +1,114 @@
+$color_1: #212121;
+$color_2: #fff;
+$font-family_1: Quicksand;
+$background-color_1: rgba(0, 0, 0, 0.4);
+$background-color_2: #365902;
+$border-color_1: #365902;
+
+body {
+	.sign-up {
+		margin-top: 20px;
+		background: #ffffff;
+	}
+}
+.card-body {
+	box-shadow: 5px 5px 50px #21212123;
+	border-radius: 30px;
+}
+.account-block {
+	padding: 0;
+	background-image: url(../assets/img/form-registro/side-img.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	position: relative;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	.overlay {
+		-webkit-box-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: $background-color_1;
+		border-top-right-radius: 30px;
+		border-bottom-right-radius: 30px;
+	}
+	.account-testimonial {
+		text-align: center;
+		color: $color_2;
+		position: absolute;
+		margin: 0 auto;
+		padding: 0 1.75rem;
+		bottom: 3rem;
+		left: 0;
+		right: 0;
+	}
+}
+.mb-5 {
+	h1 {
+		font-family: $font-family_1;
+		font-size: map-get($type-scale , heading-sm-bold);
+		color: $color_1;
+		font-weight: 800;
+	}
+}
+.p-5 {
+	p {
+		font-family: $font-family_1;
+	}
+}
+.text-theme {
+	color: $color_1 !important;
+}
+.btn-theme {
+	background-color: $background-color_2;
+	border-color: $border-color_1;
+	color: $color_2;
+	border-radius: 30px;
+	padding: 16px 24px;
+	font-size: map-get($type-scale , body-sm-regular);
+	font-family: $font-family_1;
+}
+.form-group {
+	label {
+		font-family: $font-family_1;
+		font-size: map-get($type-scale, label-sm-md);
+	}
+}
+.account-testimonial {
+	h4 {
+		font-family: $font-family_1;
+		font-size: map-get($type-scale, heading-sm-bold);
+		color: $color_1;
+		font-weight: 800;
+	}
+	p {
+		font-family: $font-family_1;
+		font-size: map-get($type-scale, body-sm-regular);
+		color: $color_1;
+		font-weight: 300;
+	}
+}
+.text-muted {
+	.text-center {
+		.mt-3 {
+			.mb-0 {
+				p {
+					font-family: $font-family_1;
+					font-size: map-get($type-scale, body-sm-regular);
+					color: $color_1;
+					font-weight: 300;
+				}
+			}
+		}
+	}
+}
+.login {
+	a {
+		font-family: $font-family_1;
+	}
+}

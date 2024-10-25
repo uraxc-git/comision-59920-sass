@@ -1,0 +1,259 @@
+
+/*$color_1: #212121;
+$font-family_1: Quicksand;
+$background-color_1: #F1F1F1;
+$background-color_2: #ccc;
+
+/*queries320px-categories*/
+/*queries-320px-footer
+@media (max-width:320px) {
+	main {
+		margin: 0 auto;
+		width: 80%;
+	}
+	.container-Cards {
+		display: grid;
+		grid-template-columns: repeat(4, 100px);
+		grid-template-rows: repeat(2, auto);
+		gap: 16px;
+		max-width: 288px;
+		margin: 0 auto;
+		align-items: center;
+		padding-left: 240px;
+	}
+	.card1 {
+		grid-column: 1 / span 2;
+	}
+	.card2 {
+		grid-column: 3 /span 2;
+	}
+	.card3 {
+		grid-column: 1 /span 2;
+		grid-row: 2 / span 2;
+	}
+	.card4 {
+		grid-column: 3 /span 2;
+		grid-row: 2 / span 2;
+	}
+	.container-card {
+		padding: 16px;
+		width: 200px;
+		height: 300px;
+		border-radius: 20px;
+		background-color: $background-color_1;
+	}
+	.container-interno {
+		width: 180px;
+		height: auto;
+		padding: 16px;
+		margin: 0 auto;
+	}
+	.imagen {
+		width: 100%;
+		height: 95px;
+		border-radius: 10px;
+		object-fit: cover;
+	}
+	.titulo {
+		font-family: $font-family_1;
+		font-size: 1rem;
+		text-align: left;
+		font-weight: 400;
+		margin-top: 10px;
+	}
+	.container-calificacion {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 10px;
+		font-family: $font-family_1;
+		font-size: .875rem;
+		div {
+			p {
+				font-size: 14px;
+			}
+		}
+	}
+	.populares {
+		h2 {
+			font-family: $font-family_1;
+			color: $color_1;
+			font-size: 1.4375rem;
+			padding-left: 16px;
+			padding-top: 3rem;
+			padding-bottom: 3rem;
+		}
+	}
+	.containerCardingredientes {
+		display: grid;
+		grid-template-columns: repeat(4, 100px);
+		grid-template-rows: repeat(4, auto);
+		gap: 16px;
+		padding-left: 20px;
+	}
+	.cardIngredientes1 {
+		grid-column: 1 /span 2;
+		grid-column: 1 / span 2;
+	}
+	.cardIngredientes2 {
+		grid-column: 3 /span 2;
+		grid-column: 3 / span 2;
+	}
+	.cardIngredientes3 {
+		grid-column: 1 /span 2;
+		grid-row: 2 / span 2;
+		grid-column: 1 / span 2;
+		grid-row: 2 / span 2;
+	}
+	.cardIngredientes4 {
+		grid-column: 3 /span 2;
+		grid-row: 2 / span 2;
+		grid-column: 3 / span 2;
+		grid-row: 2 / span 2;
+	}
+	.cardIngredientes51 {
+		grid-column: 1 /span 2;
+		grid-row: 4 / span 2;
+	}
+	.recetasIngredientes {
+		h2 {
+			font-family: $font-family_1;
+			color: $color_1;
+			font-size: 1.4375rem;
+			padding-left: 16px;
+			padding-top: 1rem;
+			padding-bottom: 3rem;
+		}
+	}
+	.containerCardingredientes-1 {
+		display: grid;
+		grid-template-columns: repeat(4,70px);
+		grid-template-rows: repeat(3,1fr);
+		margin-left: 60px;
+		margin-right: 70px;
+	}
+	.cardIngredientes5 {
+		grid-column: 1 / span 2;
+		grid-row: 3 / span 2;
+	}
+	.cardIngredientes6 {
+		grid-column: 3 / span 2;
+		grid-row: 3 / span 2;
+	}
+	.containerCardingredientes2 {
+		display: grid;
+		grid-template-columns: repeat(4,70px);
+		grid-template-rows: repeat(3,1fr);
+		margin-left: 60px;
+		margin-right: 70px;
+	}
+	.cardIngredientes7 {
+		grid-column: 1 / span 2;
+	}
+	.cardIngredientes8 {
+		grid-column: 3 / span 2;
+	}
+	.cardIngredientes9 {
+		grid-column: 1 / span 2;
+		grid-row: 2 / span 2;
+	}
+	.cardIngredientes10 {
+		grid-column: 3 / span 2;
+		grid-row: 2 / span 2;
+	}
+	.cardIngredientes11 {
+		grid-column: 1 / span 2;
+		grid-row: 3 / span 2;
+	}
+	.cardIngredientes12 {
+		grid-column: 3 / span 2;
+		grid-row: 3 / span 2;
+	}
+	.containerCardingredientes1 {
+		display: grid;
+		grid-template-columns: repeat(4,70px);
+		margin-left: 60px;
+		margin-right: 70px;
+	}
+	.cardIngredientes13 {
+		grid-column: 1 / span 2;
+	}
+	.footer {
+		display: grid;
+		grid-template-columns: repeat(4, 70px);
+		grid-template-rows: repeat(13, 50px);
+		gap: 16px;
+		margin-left: 70px;
+		margin-right: 70px;
+		margin-top: 6rem;
+	}
+	.datos {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		gap: 48px;
+		margin: 0px;
+		grid-column: 1 / span 4;
+		grid-row: 2 / span 4;
+		padding-top: 1.5rem;
+	}
+	.descargaDely {
+		display: flex;
+		justify-content: flex-start;
+		grid-column: 1 / span 3;
+		grid-row: 9 / span 1;
+		text-align: center;
+		padding-top: 1.5rem;
+	}
+	.botonesTienda {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		grid-column: 1 / span 2;
+		grid-row: 10 / span 1;
+		gap: 16px;
+	}
+	.containerFollow {
+		align-items: start;
+		grid-column: 1 / span 3;
+		grid-row: 11 / span 1;
+		text-align: center;
+	}
+	.sigue-dely {
+		grid-column: 1 / span 2;
+		grid-row: 8 / span 1;
+		text-align: center;
+	}
+	.redes-sociales {
+		grid-column: 1 / span 2;
+		grid-row: 9 / span 1;
+		display: flex;
+		gap: 16px;
+		justify-content: flex-start;
+		padding-top: 1rem;
+		button {
+			margin: 0 5px;
+		}
+	}
+	.divider {
+		grid-column: 1 / span 12;
+		grid-row: 13 / span 1;
+		background-color: $background-color_2;
+		height: 1px;
+	}
+	.derechos {
+		grid-column: 1 / span 2;
+		grid-row: 13 / span 2;
+		text-align: left;
+		padding-top: 16px;
+		font-family: $font-family_1;
+		font-size: .875rem;
+	}
+	.politica {
+		grid-column: 3 / span 2;
+		grid-row: 13 / span 1;
+		text-align: right;
+		padding-top: 16px;
+		font-family: $font-family_1;
+		font-size: .875rem;
+	}
+}*/

@@ -1,0 +1,225 @@
+/*footer-section*/
+.footer {
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 50px);
+    gap: 16px; 
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 6rem;
+
+    .logo{
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 1;
+        padding-bottom: 3rem;
+    }
+
+    .datos {
+        display: flex;
+        justify-content: flex-start;
+        gap: 32px;
+        margin: 0px;
+        grid-column: 1 / span 6;
+        grid-row: 2 / span 4;
+        padding-top: 1.5rem;
+
+        div {
+
+            h2 {
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-lg-regular);
+                font-weight: 500;
+            }
+
+            p {
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-sm-regular);
+                font-weight: 300;
+                padding-top: 1rem;
+            }
+        }
+    }
+
+    .descargaDely {
+        display: flex;
+        justify-content: flex-start;
+        grid-column: 9 / span 2;
+        grid-row: 2 / span 1;
+        text-align: center;
+        padding-top: 1.5rem;
+
+        div {
+
+            h2 {
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-lg-regular);
+                font-weight: 500; 
+            }
+        }
+    }
+
+    .botonesTienda {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        grid-column: 9 / span 2;
+        grid-row: 3 / span 1;
+        gap: 16px;
+
+        .descargaApple {
+            grid-column: 11 / span 2;
+            grid-row: 3 / span 2;
+            text-align: center;
+        }
+
+        .descargaAndroid {
+            grid-column: 9 / span 2;
+            grid-row: 3 / span 2;
+            text-align: center;
+        }
+    }
+
+    .containerFollow {
+        align-items: start;
+        grid-column: 9 / span 2;
+        grid-row: 4 / span 1;
+        text-align: center;
+    }
+
+    .sigue-dely {
+
+        div {
+
+            h2 {
+                font-family: Quicksand;
+                font-size: map-get($type-scale, body-lg-regular);
+                font-weight: 500;
+                display: flex;
+                justify-content: flex-start;
+            }
+        }
+    }
+
+    .redes-sociales {
+        grid-column: 9 / span 2;
+        grid-row: 5 / span 1;
+        display: flex;
+        gap: 16px;
+        justify-content:flex-start;
+        padding-top: 1rem;
+    }
+
+    .divider {
+        grid-column: 1 / span 12;
+        grid-row: 6 / span 1;
+        background-color: #ccc;
+        height: 1px;
+    }
+
+    .derechos {
+        grid-column: 1 / span 2;
+        grid-row: 6 / span 1;
+        text-align: left;
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: map-get($type-scale, label-sm-md);
+    }
+
+    .politica {
+        grid-column: 11 / span 2;
+        grid-row: 6 / span 1;
+        text-align: right;
+        padding-top: 16px;
+        font-family: Quicksand;
+        font-size: map-get($type-scale, label-sm-md);
+    }
+}
+
+$color_1: #212121;
+$font-family_1: Quicksand;
+$background-color_1: #F1F1F1;
+$background-color_2: #ccc;
+
+@media (max-width: 744px){
+	.footer {
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: repeat(10, 50px);
+		gap: 16px;
+		margin-left: 70px;
+		margin-right: 70px;
+		margin-top: 6rem;
+	}
+	.datos {
+		display: flex;
+		justify-content: flex-start;
+		gap: 48px;
+		margin: 0px;
+		grid-column: 1 / span 12;
+		grid-row: 2 / span 4;
+		padding-top: 1.5rem;
+	}
+	.descargaDely {
+		display: flex;
+		justify-content: flex-start;
+		grid-column: 1 / span 3;
+		grid-row: 5 / span 12;
+		text-align: center;
+		padding-top: 1.5rem;
+	}
+	.botonesTienda {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		grid-column: 1 / span 2;
+		grid-row: 6 / span 1;
+		gap: 16px;
+	}
+	.containerFollow {
+		align-items: start;
+		grid-column: 1 / span 3;
+		grid-row: 7 / span 1;
+		text-align: center;
+	}
+	.sigue-dely {
+		grid-column: 1 / span 2;
+		grid-row: 8 / span 1;
+		text-align: center;
+	}
+	.redes-sociales {
+		grid-column: 1 / span 2;
+		grid-row: 9 / span 1;
+		display: flex;
+		gap: 16px;
+		justify-content: flex-start;
+		padding-top: 1rem;
+		button {
+			margin: 0 5px;
+		}
+	}
+	.divider {
+		grid-column: 1 / span 12;
+		grid-row: 9 / span 1;
+		background-color: $background-color_2;
+		height: 1px;
+	}
+	.derechos {
+		grid-column: 1 / span 2;
+		grid-row: 9 / span 1;
+		text-align: left;
+		padding-top: 16px;
+		font-family: $font-family_1;
+		font-size: .875rem;
+	}
+	.politica {
+		grid-column: 11 / span 2;
+		grid-row: 9 / span 1;
+		text-align: right;
+		padding-top: 16px;
+		font-family: $font-family_1;
+		font-size: .875rem;
+	}
+}
+
+
