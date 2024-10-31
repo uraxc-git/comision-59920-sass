@@ -1737,5 +1737,22 @@ body .sign-up {
     grid-column: 9 / span 10;
     grid-row: 9 / span 1; } }
 
+@media (max-width: 768px) {
+  .receta {
+    display: grid;
+    grid-template-columns: repeat(8, 58px);
+    grid-template-rows: repeat(8, auto);
+    gap: 24px;
+    padding: 20px;
+    max-width: 604px;
+    margin: 0 auto; }
+  .titulo {
+    grid-column: 1 / span 6; }
+    .titulo h1 {
+      font-family: Quicksand;
+      font-size: 2rem;
+      text-align: left;
+      padding-top: 6rem; } }
+
 /*@import "./layout/mediaQueries/mediaQ-320-px";
 @import "./layout/mediaQueries/mediaQ-744-px";*/
